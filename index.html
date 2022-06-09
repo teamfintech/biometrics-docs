@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="topbar">
+        <h1 class="heading">ERA-Biometrics Core</h1>
+        <nav class="nav">
+            <a href="#quickstart">Quick start</a>
+            <a href="#overview">Overview</a>
+            <a href="#references">API References</a>
+        </nav>
+    </div>
+    <div class="container">
+        <section id="quickstart" class="content" style="display: block">
+        <div></b>
+        <h2>Quick start</h2><br>
+        
+        <div class="video" >
+        <!-- <video controls>
+            <source src="img/Project-demo-MP4.mp4" type="video/mp4">
+          </video> -->
+
+        <div style="width: 98%; justify-content: center; display: flex; padding: 30px 60px;">
+            <iframe width="100%" height="100%" style="min-height: 500px;" src="https://www.youtube.com/embed/i9jfprMIMXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+        </div>
+    </section>
+
+<section id="overview" class="content">
+    <div>
+        <h2>Overview</h2><br>
+
+
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h3>Step-1: </h3>
+                <p>
+                    We provide our customer a single javascript bundle. which is portable and pretty simple to use. Users have to import this bundle in any webpage of the web application. Whenever the javascript bundle is imported into a web page, it can be triggered with a submit event. Once the button is clicked, desired Window will open. In the enrollment window, it will automatically capture fingers one by one. The picture of two palms indicates which finger of which hand is to be put on the scanner. It is programatically customizable which fingers you like to capture. It will show the graphical representation of the fingerprint captured in the specific window. The verification window takes one fingerprint. It's generally used to verify existing fingerprint.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <h3>Step-2: </h3>
+                <p>A small piece of javascript code detects the device you pluged in as and capture form this device as well.</p>
+                <div  class="image"> <img src="img/widget-capture-code.PNG" alt="preview"></div>
+                <h6>Capturing</h6><br>
+             
+            </li>
+            <li class="list-group-item">
+                <h3>Step-3: </h3>
+               
+                <div  class="image"> <img src="img/widget-data-sending.PNG" alt="preview"></div>
+                <h6>Sending Data</h6><br>
+                <p>Addding this code to your page will send data to your web application. It creates the submit event with the widget's submit button.</p>
+            </li>
+            <li class="list-group-item">
+                <h3>Step-4: </h3>
+                <div class="image"> <img src="img/widget-data.PNG" alt="preview"></div>
+                <h6>Returning Data Set</h6><br>
+                <p>
+                    After capturing all the required fingers, the submit button have to be clicked. Once this button is clicked, All of the finger data will be on your web application. Then you can do whatever you want with these data.
+                    You can store those data to your database. you can verify the existing fingerprint from database with instantly captured fingerprint from verification window.
+                    The resulted dataset holds the image height-width, raw image data, image quality score and ISO formatted data.
+                </p>
+               
+            </li>
+            
+          </ul>
+
+    
+    </div>
+</section>
+
+<section id="references" class="content">
+    <div style="width: 100%;">
+        <h2>API References</h2>
+
+        
+
+    </div>
+</section>
+
+
+</div>
+    
+<br>
+<h6>&copy; ERA InfoTech LTD.</h6>
+</body>
+</html>
+
