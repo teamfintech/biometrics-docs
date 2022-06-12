@@ -60,6 +60,11 @@ body{
     justify-content: center;
     color: #447de7;
 }
+.content h4{
+    display: flex;
+    justify-content: center;
+    color: #447de7;
+}
 .image{
     display: flex;
     justify-content: center;
