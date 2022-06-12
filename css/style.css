@@ -6,6 +6,7 @@ body{
     background-color: rgb(103 137 131);
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .topbar h1{
     padding-bottom: 10px;
@@ -78,4 +79,8 @@ h6{
     font-size: small;
     display: flex;
     justify-content: center; 
+}
+.list-group-item {
+    background-color: unset;
+    border: unset;
 }
